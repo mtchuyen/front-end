@@ -26,6 +26,18 @@ Các tùy chọn của Cache-Control header bao gồm:
 ## Developing a Caching Strategy
 See [2]
 
+## Cache Setting flow
+Luồng thể hiện các tài nguyên cache được thêm vào theo từng bước
+
+![Luồng cache](https://github.com/mtchuyen/front-end/blob/master/static/cache_flow_chart.png)
+
+- Khi set `Cache-Control`: ***public, max-age=31536000***, `no` Etag, `no` Last-Modified settings.
+- fingerprinting
+
+> If you need precise control over when resources are invalidated we recommend using a URL fingerprinting or versioning technique. For example, when you do changes to one css file, you should change name to be sure that the updated file will be seen by all because file is cached.This is called URL fingerprinting.
+
+
+
 ## Fingerprints
 See: [2], [3]
 - [2]: Fingerprint cache items
@@ -39,3 +51,4 @@ See: [2], [3]
 - [5: Caching Header Best Practices](https://simonhearne.com/2022/caching-header-best-practices/)
 - [6: HTTP Cache Headers - A Complete Guide](https://www.keycdn.com/blog/http-cache-headers)
 - [7: An in-depth introduction to HTTP caching: Cache-Control & Vary](https://www.freecodecamp.org/news/an-in-depth-introduction-to-http-caching-cache-control-vary/)
+- [8: Setting Cache control headers for common content types...](https://webdock.io/en/docs/webdock-control-panel/optimizing-performance/setting-cache-control-headers-common-content-types-nginx-and-apache)
