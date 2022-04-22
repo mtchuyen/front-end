@@ -18,7 +18,7 @@
 Trong đó:
 - `short.local` là domain muốn tạo trên localhost.
 
-- ***S1: Tạo cấu hình trên Nginx***:
+- ***S2: Tạo cấu hình trên Nginx***:
 
 Có thể tạo cấu hình trong 2 thư mục `/etc/nginx/conf.d/` và `/etc/nginx/sites-enabled/`, nếu trong `conf.d/` thì phải tạo files có đuôi là `.conf`.
 
@@ -32,6 +32,11 @@ http {
         ...
 }
 ```
+- ***S3: Reload nginx's Configuration*** (ưu tiên hơn) hoặc ***Restart Nginx***
+
+> nginx -s reload
+> systemctl restart nginx
+
 
 #### Ref:
 - https://www.danclarke.com/nginx-to-avoid-localhost-port
