@@ -35,6 +35,7 @@ http {
 - ***S3: Reload nginx's Configuration*** (ưu tiên hơn) hoặc ***Restart Nginx***
 
 > nginx -s reload
+
 > systemctl restart nginx
 
 
