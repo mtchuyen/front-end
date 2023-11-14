@@ -52,8 +52,8 @@ With project goals clarified, let's examine popular options for core components 
 - **PHP** - Ubiquitous language with many mature frameworks available.
 
 #### 2.1.2. Frontend
-**- JavaScript/TypeScript** - First-class front-end language with excellent ecosystem. TypeScript enhances robustness.
-**- Dart** - Strongly typed language optimized for UI development. Used in Flutter apps.
+- **JavaScript/TypeScript** - First-class front-end language with excellent ecosystem. TypeScript enhances robustness.
+- **Dart** - Strongly typed language optimized for UI development. Used in Flutter apps.
 For greenfield projects, using the same language on front and back ends simplifies development, sharing of code/types, and recruiting specialized developers.
 
 But teams can mix-and-match languages to leverage existing skills. For example, combining Python and Node.js or Go and TypeScript.
@@ -61,40 +61,40 @@ But teams can mix-and-match languages to leverage existing skills. For example, 
 ### 2.2. Web Frameworks
 Popular open-source web frameworks in leading languages include:
 
-**- Node.js:** Express, Fastify, NestJS, Sails, Astro, Remix
-**- Python:** Django, Flask, FastAPI
-**- Java:** Spring, Micronaut, Helidon
-**- C#/.NET:** ASP.NET Core, NancyFx
-**- Go:** Gin, Revel, Beego
-**- Ruby:** Rails, Sinatra, Padrino
-**- PHP:** Laravel, Symfony, CodeIgniter
+- **Node.js:** Express, Fastify, NestJS, Sails, Astro, Remix
+- **Python:** Django, Flask, FastAPI
+- **Java:** Spring, Micronaut, Helidon
+- **C#/.NET:** ASP.NET Core, NancyFx
+- **Go:** Gin, Revel, Beego
+- **Ruby:** Rails, Sinatra, Padrino
+- **PHP:** Laravel, Symfony, CodeIgniter
 Frameworks speed development by providing routing, request handling, and boilerplate code generation. They allow focusing business logic rather than building foundations.
 
 Full-stack frameworks like Rails and MERN provide front-end and back-end layers. Microframeworks like Express and Flask offer minimal viable features.
 
 ***Front-End Libraries/Frameworks***:
 
-**- React** - Immensely popular for building complex UIs through composable components.
-**- Angular** - Full-featured framework great for enterprise apps. Has a learning curve.
-**- Vue** - Approachable and versatile. Simpler than React with great documentation.
-**- Svelte** - Innovative compiler-based framework for high performance.
-**- Ember** - Stable and opinionated. Excellent for CRUD apps. Lower adoption than React or Vue.
+- **React** - Immensely popular for building complex UIs through composable components.
+- **Angular** - Full-featured framework great for enterprise apps. Has a learning curve.
+- **Vue** - Approachable and versatile. Simpler than React with great documentation.
+- **Svelte** - Innovative compiler-based framework for high performance.
+- **Ember** - Stable and opinionated. Excellent for CRUD apps. Lower adoption than React or Vue.
 Lightweight options like Alpine.js or HTMX also exist for sprinkling interactivity into traditional server-rendered apps without a heavy framework.
 
 ### 2.3. Databases
-**- PostgreSQL** - Open source SQL database with a strong reputation. Full-featured and reliable.
-**- MySQL** - Popular open source SQL database. Wide support across web hosts.
-**- SQLite** - Simple file-based SQL engine. Great for prototyping or simple workloads.
-**- MongoDB** - Leading NoSQL document database. Flexible schemas and scaling.
-**- DynamoDB** - Fully managed NoSQL database from AWS. Serverless option.
-**- Redis** - In-memory data store often used for caching, queues, or sessions.
+- **PostgreSQL** - Open source SQL database with a strong reputation. Full-featured and reliable.
+- **MySQL** - Popular open source SQL database. Wide support across web hosts.
+- **SQLite** - Simple file-based SQL engine. Great for prototyping or simple workloads.
+- **MongoDB** - Leading NoSQL document database. Flexible schemas and scaling.
+- **DynamoDB** - Fully managed NoSQL database from AWS. Serverless option.
+- **Redis** - In-memory data store often used for caching, queues, or sessions.
 For smaller apps, SQLite or Redis may suffice initially. Larger apps typically use PostgreSQL or MySQL for relational data, and Mongo or DynamoDB for NoSQL needs.
 
 ### 2.3. Hosting and Infrastructure
-**- Cloud hosts:** Heroku, AWS, GCP, Azure, DigitalOcean
-**- Platforms-as-a-Service:** Netlify, Vercel, Render
-**- Containers:** Docker, Kubernetes
-**- Serverless:** AWS Lambda, Cloudflare Workers
+- **Cloud hosts:** Heroku, AWS, GCP, Azure, DigitalOcean
+- **Platforms-as-a-Service:** Netlify, Vercel, Render
+- **Containers:** Docker, Kubernetes
+- **Serverless:** AWS Lambda, Cloudflare Workers
 Managed cloud platforms simplify deployments with auto-scaling capabilities. Containers enable predictable environments. Serverless offloads infrastructure management.
 
 You can also host directly on virtual machines or physical servers. Consider data residency regulations when evaluating hosting providers.
@@ -179,11 +179,11 @@ Downsides are smaller communities vs languages like JavaScript. And more limited
 
 ### 4.6. Sumary:
 To help guide your decisions, I've included some template tech stacks that serve as starting points for many web applications:
-**- JavaScript/Node/React:** Backend - Node.js/Express, Frontend - React/Next.js, Database - PostgreSQL/MongoDB, Infrastructure - AWS/Vercel/Docker
-**- Python/Django/React:** Backend - Django (Python), Frontend - React/Next.js, Database - PostgreSQL, Infrastructure - Heroku/AWS/GCP
-**- Ruby on Rails:** Backend - Ruby on Rails, Frontend - Rails/ERB or Vue, Database - PostgreSQL, Infrastructure - Heroku/AWS
-**- Java/Spring Boot/React:** Backend - Spring Boot (Java), Frontend - React, Database - PostgreSQL/MongoDB, Infrastructure - AWS/Pivotal/Azure
-**- Go/Vue:** Backend - Go, Frontend - Vue/Nuxt.js, Database - PostgreSQL/Redis/MongoDB, Infrastructure - AWS/GCP/DigitalOcean
+- **JavaScript/Node/React:** Backend - Node.js/Express, Frontend - React/Next.js, Database - PostgreSQL/MongoDB, Infrastructure - AWS/Vercel/Docker
+- **Python/Django/React:** Backend - Django (Python), Frontend - React/Next.js, Database - PostgreSQL, Infrastructure - Heroku/AWS/GCP
+- **Ruby on Rails:** Backend - Ruby on Rails, Frontend - Rails/ERB or Vue, Database - PostgreSQL, Infrastructure - Heroku/AWS
+- **Java/Spring Boot/React:** Backend - Spring Boot (Java), Frontend - React, Database - PostgreSQL/MongoDB, Infrastructure - AWS/Pivotal/Azure
+- **Go/Vue:** Backend - Go, Frontend - Vue/Nuxt.js, Database - PostgreSQL/Redis/MongoDB, Infrastructure - AWS/GCP/DigitalOcean
 
 ## 5. Build, Measure, Learn: Optimize Your Stack Iteratively
 There is no one-size-fits all technology stack. The needs of an e-commerce site differ greatly from those of a real-time chat application. Languages and frameworks carry trade-offs around productivity, performance, and ecosystem.
